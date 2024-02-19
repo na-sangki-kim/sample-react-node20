@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BUILD_NAME=sample-node20-react-fe
+BUILD_NAME=sample-react-node20
 
 docker stop $BUILD_NAME
 docker rmi $BUILD_NAME
