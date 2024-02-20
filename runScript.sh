@@ -4,7 +4,7 @@ BUILD_NAME=sample-react-node20
 
 docker stop $BUILD_NAME
 docker rmi $BUILD_NAME
-docker build -t $BUILD_NAME . -f node.js20:react.Dockerfile 2>&1 || exit
+docker build -t $BUILD_NAME . 2>&1 || exit
 
 # foreground -> script exit = docker process stop
 docker run --rm -p 3000:3000 --name $BUILD_NAME $BUILD_NAME
