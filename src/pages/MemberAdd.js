@@ -30,7 +30,7 @@ export default function MemberAdd() {
         <div className="card">
           <div className="card-header">
             <Link className="btn btn-outline-primary mx-1" to="/">Home</Link>
-            <Link className="btn btn-outline-primary mx-1" to="/members">Member 목록</Link>
+            <Link className="btn btn-outline-primary mx-1" to="/members">Member List</Link>
           </div>
           <div className="card-body">
             <form>
